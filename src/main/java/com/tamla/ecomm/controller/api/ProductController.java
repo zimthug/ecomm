@@ -28,4 +28,6 @@ public class ProductController {
     public List<Product> list() {
         return this.productService.findAllByOrderByProductName();
     }
+
+
 }
